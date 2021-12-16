@@ -23,9 +23,9 @@ export class Satellite {
 		return this.type === 'Space Debris';
    }
 
-//    	zebraStripe(arr); boolean {
-	   
-//    }
+   	zebraStripe(arr): boolean {
+	   return arr.indexOf(this) % 2 === 0;
+   }
 
 }
 
