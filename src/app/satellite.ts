@@ -23,6 +23,10 @@ export class Satellite {
 		return this.type === 'Space Debris';
    }
 
+//    	zebraStripe(arr); boolean {
+	   
+//    }
+
 }
 
 // TODO 3a: fix isSpaceDebris check
