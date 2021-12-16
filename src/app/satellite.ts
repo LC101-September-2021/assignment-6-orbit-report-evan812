@@ -15,7 +15,16 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
-		return true;
+		// if (this.type === 'Space Debris'){
+		// 	return true;
+		// } else {
+		// 	return false;
+		// }
+		return this.type === 'Space Debris';
+   }
+
+   	zebraStripe(arr): boolean {
+	   return arr.indexOf(this) % 2 === 0;
    }
 
 }
